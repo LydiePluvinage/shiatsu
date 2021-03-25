@@ -4,10 +4,11 @@ module.exports = {
     theme: {
         colors: {
             greenPrimary: '#6dd170',
+            grayPrimary: '#ebebe9',
         },
         extend: {
             backgroundImage: {
-                'header-background': "url('/img/header-background.jpg')",
+                'header-background': "url('../img/header-background.jpg')",
             },
             height: {
                 '70vh': '70vh',
