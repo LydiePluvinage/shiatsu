@@ -13,9 +13,19 @@ module.exports = {
             height: {
                 '70vh': '70vh',
             },
-            textShadow: {
-                '2xl': '1px 1px 5px rgb(33 34 43 / 20%)',
-                '3xl': '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
+            keyframes: {
+                fadeInLeft: {
+                    '0%': { opacity: 0, transform: 'translateX(-100px)' },
+                    '100%': { opacity: 1, transform: 'translateX(0px)' },
+                },
+                fadeInRight: {
+                    '0%': { opacity: 0, transform: 'translateX(100px)' },
+                    '100%': { opacity: 1, transform: 'translateX(0px)' },
+                },
+            },
+            animation: {
+                fadeInLeft: 'fadeInLeft 1s ease-out',
+                fadeInRight: 'fadeInRight 1s ease-out',
             },
         },
     },
