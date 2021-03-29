@@ -2,11 +2,11 @@ module.exports = {
     purge: [],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        colors: {
-            greenPrimary: '#6dd170',
-            grayPrimary: '#ebebe9',
-        },
         extend: {
+            colors: {
+                greenPrimary: '#6dd170',
+                grayPrimary: '#ebebe9',
+            },
             backgroundImage: {
                 'header-background': "url('../img/header-background.jpg')",
             },
@@ -27,6 +27,18 @@ module.exports = {
                 fadeInLeft: 'fadeInLeft 1s ease-out',
                 fadeInRight: 'fadeInRight 1s ease-out',
             },
+            gridRowStart: {
+                8: '8',
+                9: '9',
+                10: '10',
+                11: '11',
+                12: '12',
+                13: '13',
+            },
+        },
+        screens: {
+            sm: { max: '850px' },
+            md: { max: '1000px' },
         },
     },
     variants: {

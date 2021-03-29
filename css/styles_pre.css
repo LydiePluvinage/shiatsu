@@ -9,6 +9,9 @@
     .text-shadow-lg {
         text-shadow: 1px 1px 5px #065f46;
     }
+    .text-shadow-white {
+        text-shadow: 1px 1px 5px #ffffff;
+    }
     ::selection {
         background-color: #6dd170;
         color: #ebebe9;

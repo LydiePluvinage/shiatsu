@@ -1,7 +1,7 @@
 {
     "name": "shiatsu",
     "version": "1.0.0",
-    "description": "Claire Guigelay - Practicienne en Shiatsu",
+    "description": "Claire Gigelay - Practicienne en Shiatsu",
     "main": "index.html",
     "scripts": {
         "devserver": "live-server",
