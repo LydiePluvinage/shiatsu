@@ -31575,18 +31575,8 @@ video {
   text-shadow: 1px 1px 5px #065f46;
 }
 
-.text-shadow-white {
+.text-shadow-wh {
   text-shadow: 1px 1px 5px #ffffff;
-}
-
-::-moz-selection {
-  background-color: #6dd170;
-  color: #ebebe9;
-}
-
-::selection {
-  background-color: #6dd170;
-  color: #ebebe9;
 }
 
 @media (max-width: 850px) {
@@ -62478,6 +62468,18 @@ video {
     -webkit-animation: fadeInRight 1s ease-out;
             animation: fadeInRight 1s ease-out;
   }
+
+  .sm\:text-shadow-md {
+    text-shadow: 1px 1px 2px #065f46;
+  }
+
+  .sm\:text-shadow-lg {
+    text-shadow: 1px 1px 5px #065f46;
+  }
+
+  .sm\:text-shadow-wh {
+    text-shadow: 1px 1px 5px #ffffff;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -93368,5 +93370,17 @@ video {
   .md\:animate-fadeInRight {
     -webkit-animation: fadeInRight 1s ease-out;
             animation: fadeInRight 1s ease-out;
+  }
+
+  .md\:text-shadow-md {
+    text-shadow: 1px 1px 2px #065f46;
+  }
+
+  .md\:text-shadow-lg {
+    text-shadow: 1px 1px 5px #065f46;
+  }
+
+  .md\:text-shadow-wh {
+    text-shadow: 1px 1px 5px #ffffff;
   }
 }
